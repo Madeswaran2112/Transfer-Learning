@@ -110,15 +110,17 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 </br>
 </br>
 
-![alt text](image.png)
+![Screenshot 2025-03-24 154114](https://github.com/user-attachments/assets/532ef4e2-b816-4ffd-b8cb-c9efd2c71297)
+
 
 ###  Validation Loss Vs Iteration Plot
+![Screenshot 2025-03-24 154138](https://github.com/user-attachments/assets/0287a5af-642b-427a-9ffb-4b12aa6a49a8)
 
-![alt text](image-1.png)
+
 
 ### Confusion Matrix
+![Screenshot 2025-03-24 154239](https://github.com/user-attachments/assets/8a8c5139-725f-4a30-b462-947b00ade1b3)
 
-![alt text](image-2.png)
 
 </br>
 </br>
@@ -126,23 +128,25 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ### Classification Report
 
-![alt text](image-3.png)
+![Screenshot 2025-03-24 154258](https://github.com/user-attachments/assets/12292ae9-1f29-4b00-9518-beb957a2974f)
 </br>
 </br>
 </br>
+
 
 ### New Sample Prediction
 ```
 predict_image(model, image_index=65, dataset=test_dataset)
 ```
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/6898ac62-4dc3-4829-97d7-312c7b045c2f)
 
 
 ```
 
 predict_image(model, image_index=95, dataset=test_dataset)
 ```
-![alt text](image-5.png)
+![image-5](https://github.com/user-attachments/assets/1ab7aca9-3da3-44b7-a406-0791adb0e6f6)
+
 </br>
 </br>
 </br>

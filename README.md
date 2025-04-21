@@ -2,7 +2,7 @@
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
 ## Problem Statement and Dataset
-Develop an image classification model using transfer learning with the pre-trained VGG19 model.
+The experiment aims to develop a binary classification model using a pretrained VGG19 to distinguish between defected and non-defected capacitors by modifying the last layer to a single neuron. The model will be trained on a dataset containing images of various defected and non-defected capacitors to enhance defect detection accuracy. Optimization techniques will be applied to improve performance, and the model will be evaluated to ensure reliable classification for capacitor quality assessment in manufacturing.
 </br>
 </br>
 </br>
@@ -119,7 +119,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 
 ### Confusion Matrix
-![Screenshot 2025-03-24 154239](https://github.com/user-attachments/assets/8a8c5139-725f-4a30-b462-947b00ade1b3)
+![Screenshot 2025-04-21 111411](https://github.com/user-attachments/assets/3768755d-f177-4bdc-99b0-0137bfc056f5)
+
 
 
 </br>
@@ -127,8 +128,9 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 </br>
 
 ### Classification Report
+![Screenshot 2025-04-21 111419](https://github.com/user-attachments/assets/448ca486-fd6f-40a7-9dd9-347a2df09429)
 
-![Screenshot 2025-03-24 154258](https://github.com/user-attachments/assets/12292ae9-1f29-4b00-9518-beb957a2974f)
+
 </br>
 </br>
 </br>
